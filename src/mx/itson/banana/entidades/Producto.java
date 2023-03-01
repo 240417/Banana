@@ -16,4 +16,60 @@ public class Producto {
     private Double precio;
     private int id;
     private Existencia existencia;
+
+    /**
+     * @return the nombre
+     */
+    public String getNombre() {
+        return nombre;
+    }
+
+    /**
+     * @param nombre the nombre to set
+     */
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    /**
+     * @return the precio
+     */
+    public Double getPrecio() {
+        return precio;
+    }
+
+    /**
+     * @param precio the precio to set
+     */
+    public void setPrecio(Double precio) {
+        this.precio = precio;
+    }
+
+    /**
+     * @return the id
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
+     * @return the existencia
+     */
+    public Existencia getExistencia() {
+        return existencia;
+    }
+
+    /**
+     * @param existencia the existencia to set
+     */
+    public void setExistencia(Existencia existencia) {
+        this.existencia = existencia;
+    }
 }
