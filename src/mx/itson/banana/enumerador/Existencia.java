@@ -3,17 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.itson.banana.entidades;
-
-import mx.itson.banana.enumerador.Existencia;
+package mx.itson.banana.enumerador;
 
 /**
  *
  * @author medin
  */
-public class Producto {
-    private String nombre ;
-    private Double precio;
-    private int id;
-    private Existencia existencia;
+public enum Existencia {
+    EXISTENTE,
+    INEXISTENTE
 }
