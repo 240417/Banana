@@ -14,7 +14,6 @@ import mx.itson.banana.enumerador.Existencia;
 public class Producto {
     private String nombre ;
     private Double precio;
-    private int id;
     private Existencia existencia;
 
     /**
@@ -43,20 +42,6 @@ public class Producto {
      */
     public void setPrecio(Double precio) {
         this.precio = precio;
-    }
-
-    /**
-     * @return the id
-     */
-    public int getId() {
-        return id;
-    }
-
-    /**
-     * @param id the id to set
-     */
-    public void setId(int id) {
-        this.id = id;
     }
 
     /**

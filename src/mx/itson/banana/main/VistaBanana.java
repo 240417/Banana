@@ -23,12 +23,17 @@ public class VistaBanana {
         try{
         Producto p = new Producto();
         Operacion o = new Operacion();
+        Almacen a = new Almacen();
         
         p.setNombre("xd");
         p.setPrecio(15.2);
         p.setExistencia(Existencia.INEXISTENTE);
-        System.out.println(p.getNombre()+ "      "+p.getPrecio()+"    "+p.getExistencia());
-        o.BananaExistencia(p.getExistencia());
+        a.setProducto(p);
+        a.setNombre("Almacen 1");
+        
+        
+        System.out.println(a.getNombre()+ "      "+a.getProducto().getPrecio()+"    "+a.getProducto().getExistencia());
+        o.BananaExistencia(a.getProducto().getExistencia());
         }catch(Exception e){
         System.out.println(e);
         }
