@@ -35,7 +35,7 @@ public class VistaBanana {
         System.out.println(a.getNombre()+ "      "+a.getProducto().getPrecio()+"    "+a.getProducto().getExistencia());
         o.BananaExistencia(a.getProducto().getExistencia());
         }catch(Exception e){
-        System.out.println(e);
+        System.out.println(e.getMessage());
         }
         
     }
