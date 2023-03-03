@@ -18,7 +18,7 @@ public class Operacion {
     public void BananaExistencia(Existencia existencia) throws BananaException{
     
         if(existencia.equals(INEXISTENTE)){
-        throw new BananaException("Lo siento, el producto no esta agotado, intente otro día");
+        throw new BananaException("Lo siento, el producto esta agotado, intente otro día");
         }
         
     }
