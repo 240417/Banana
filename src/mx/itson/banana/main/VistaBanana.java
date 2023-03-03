@@ -5,8 +5,7 @@
  */
 package mx.itson.banana.main;
 
-import mx.itson.banana.entidades.Almacen;
-import mx.itson.banana.entidades.Producto;
+import mx.itson.banana.entidades.*;
 import mx.itson.banana.enumerador.Existencia;
 import mx.itson.banana.negocio.Operacion;
 
